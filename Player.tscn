@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://tq0oe7iwrbwa"]
+
+[ext_resource type="Script" path="res://somescript.gd" id="1_qkdmd"]
+[ext_resource type="Texture2D" uid="uid://6v0mgfyubt6j" path="res://icon.svg" id="2_mpk24"]
+
+[sub_resource type="Animation" id="Animation_4xmms"]
+resource_name = "new_animation"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4d3wh"]
+_data = {
+"new_animation": SubResource("Animation_4xmms")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_si5qd"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_qkdmd")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_mpk24")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_4d3wh")
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_si5qd")

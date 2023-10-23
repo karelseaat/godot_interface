@@ -1,0 +1,7 @@
+1 een tool die check of alle links nog goed aan elkaar zitten, subscenes die naar de gelade scenes refereren via een id.
+2 een tool die alle collition layes voor objecten laar zien samen met de masters zodat er snel duidelijk is wat met wat botst
+3 een tool die snel alle modulatie lagen laat zien ?
+4 een tool waarbij je snel nodes van een scene kunt moven en hernoemen ?
+5 een tool die laat zien welke nodes scripts en hebben signals hebben en die laat zien wat er zichtbaar is en wat niet, ook te zien of de node een subscene is.
+6 al deze tools moeten automatisch updaten als de file gesaved word
+https://www.pysimplegui.org/en/latest/
