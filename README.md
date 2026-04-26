@@ -84,3 +84,7 @@ python main.py -h
 - Python 3.9+
 - `pydantic>=2.0` (for JSON schema validation)
 - `click>=8.0` (CLI interface)
+
+## More from Karelseaat
+
+For more projects and experiments, visit my GitHub Pages site: [karelseaat.github.io](https://karelseaat.github.io/)
